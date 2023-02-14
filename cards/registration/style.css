@@ -1,0 +1,70 @@
+*{ 
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(186, 174, 174);
+    background: url(https://moskvalux.ru/wp-content/uploads/2020/12/blog-28.03.2018-earnfree-3.jpg);
+background-attachment: fixed
+;
+background-size: cover
+;
+
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: rgb(49, 55, 60);
+    text-align: center;
+    border: solid turquoise;
+}
+
+h1{
+    color: rgb(156, 158, 158);
+    text-transform: uppercase;
+       
+}
+.form input{
+    background: none;
+    display: block
+    ;
+    margin: 20px auto;
+    border: 2px solid rgb(0, 237, 198);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 29px;
+    color: aliceblue
+       ;
+       text-transform: uppercase;
+       text-align: center;
+       
+    
+}
+.enter input{
+    background: none;
+    display: block
+    ;
+    margin: 20px auto;
+    border: 2px solid rgb(0, 237, 198);
+    padding: 14px 40px;
+    
+    outline: none;
+    border-radius: 29px;
+    color: gray
+       ;
+       transition: 0.25s;
+       cursor: pointer;
+       text-transform: uppercase;
+       text-align: center;
+}
+.enter  :hover{
+    background-color: aqua;
+    box-shadow: rgb(49, 55, 60);
+}

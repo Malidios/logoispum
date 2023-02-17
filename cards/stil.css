@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+   }
+   h1{
+    text-align: center;
+    margin: 20px 60px;
+   } 
+   img{
+    position: absolute;
+    width: 261px;
+    left: 590px;
+    top: 360px;
+}
